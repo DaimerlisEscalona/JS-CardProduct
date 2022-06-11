@@ -1,0 +1,121 @@
+.cont-general{
+    
+    display: grid;
+    grid-template-areas: "cont-card-producto cont-inf-calculo" "cont-card-producto cont-inf-calculo";
+    grid-template-columns: 45% 40%;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.cont-card-producto{
+
+    grid-area: cont-card-producto;
+    background-color: #9ada9a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 1vh;
+    
+}
+
+.cont-img{
+
+    width: 80%;
+    padding: 10px 10px 0 10px ;
+
+}
+
+.form-img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.form-texto{
+
+    text-align: center;
+    font-size: medium;
+
+}
+
+.form-inp{
+
+    width: 78%;
+    margin: 0 0 10px 0;
+  	height: 4vh;
+  	outline: 0; 
+    border: 2px solid black;
+  	border-radius: 1vh;
+	background-color: #F0FFF0;
+	font-size: small;
+	color: 	black;
+
+}
+.form-select{
+
+    width: 80%;
+	cursor: pointer;
+    margin: 0 0 10px 0;
+  	height: 5vh;
+  	outline: 0; 
+    border: 2px solid black;
+  	border-radius: 1vh;
+	background-color: #F0FFF0;
+	font-size: small;
+	color: 	black;
+
+}
+.cont-precio{
+
+    display: inline-block;
+
+}
+
+.form-but{
+
+    width: 60%;
+	cursor: pointer;
+    margin: 10px 0 20px 0;
+  	height: 6vh;
+  	outline: 0; 
+  	border-radius: 1vh;
+	background-color: #54c954;
+	font-size: small;
+	color: 	black;
+
+}
+.cont-inf-calculo{
+
+    grid-area: cont-inf-calculo;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin: 0 0 0 10px;
+    font-size: medium;
+
+}
+
+.form-color-selec{
+
+    border-radius: 80vh;
+    width: 25px;
+    height: 25px;
+
+}
+
+.selec-azul{
+
+    background-color: blue;
+
+}
+
+.selec-negro{
+
+    background-color: black;
+
+}
